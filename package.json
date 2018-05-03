@@ -1,0 +1,6 @@
+{
+  "name": "power-sum",
+  "main": "src/index.js",
+  "author": "fmiras",
+  "license": "MIT"
+}
