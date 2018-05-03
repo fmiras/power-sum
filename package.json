@@ -2,5 +2,8 @@
   "name": "power-sum",
   "main": "src/index.js",
   "author": "fmiras",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
