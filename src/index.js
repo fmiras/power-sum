@@ -14,11 +14,8 @@ const matchWithBases = (base1, base2, n) => {
 
 const matchPowerNumber = n => {
   // Iterate possible bases
-  for (let base1 = 2; base1 < n/2; base1++) {
-    for (let base2 = 2; base2 < n/2; base2++) {
-      if (base1 === base2) {
-        break
-      }
+  for (let base1 = 0; base1 < n/2; base1++) {
+    for (let base2 = 0; base2 < n/2; base2++) {
       if (matchWithBases(base1, base2, n)) {
         return true
       }

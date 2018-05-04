@@ -8,7 +8,7 @@ test('PowerSum 20 and 25, return 3', t => {
 
 test('PowerSum 25 and 30, return 2', t => {
   const result = powerSum(25, 30)
-  t.is(result, 2)
+  t.is(result, 5)
 })
 
 test('PowerSum 20 and 20, return 1', t => {
